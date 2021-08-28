@@ -194,7 +194,8 @@ ARTICLE COL LEFT
 
 .card img {
   width: 160px;
-  height: auto;
+  height: 200px;
+  /* height: auto; */
 }
 
 span.james-bond {
