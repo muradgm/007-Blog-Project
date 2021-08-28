@@ -1,0 +1,328 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat',
+  sans-serif;
+}
+
+
+/* ******************************************************************
+HEADER
+****************************************************************** */
+.top-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.top-header h1 {
+  font-family: 'Kaisei Tokumin',
+  serif;
+  margin-top: -40px;
+}
+
+#logo>img {
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  display: block;
+}
+
+
+#header {
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  margin-bottom: 50px;
+}
+
+#nav {
+  text-align: center;
+  padding-top: 5px;
+}
+
+#nav li {
+  display: inline-block;
+  list-style-type: none;
+  border-left: 1px solid #fff;
+  padding: 0px 3rem;
+}
+
+#nav li:first-of-type {
+  border: none;
+  padding-right: 3rem;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+
+#nav a:hover {
+  transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  color: #967C42;
+}
+
+
+/* ******************************************************************
+IMAGES SECTION
+****************************************************************** */
+.content {
+  margin-bottom:4rem ;
+}
+
+
+#inner-content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-img {
+  width: 100%;
+  text-align: center;
+}
+
+.container-img>img {
+  width: 91%;
+}
+
+.images {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.images img {
+  width: 22.5%;
+}
+
+/* ******************************************************************
+ARTICLE SECTION
+****************************************************************** */
+
+.article-header h1 {
+  text-transform: uppercase;
+  margin-top: 3rem;
+  margin-bottom: 1.1rem;
+  padding-left: 50px;
+  font-size: 2.45rem;
+  font-weight: 600;
+  color: #967C42;
+}
+
+.article-content {
+  width: 92%;
+  margin: auto;
+}
+
+.article-content h3 {
+  font-size: 1.25rem;
+}
+
+
+.article-content p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+
+/* *********************************
+ARTICLE COL LEFT
+********************************* */
+
+.article-col-left {
+  width: 50%;
+  text-align: justify;
+  float: left;
+  padding-right: 20px;
+}
+
+/* *********** CARDS *********** */
+.cards .cast {
+  margin: 2rem 0;
+
+  color: #967C42;
+}
+
+.cards {
+  margin-top: 1.5rem;
+}
+
+.card {
+  font-size: 10px;
+  margin-left: 2.63rem;
+  margin-bottom: 16rem;
+  /* padding:5px; */
+  float: left;
+  text-align: center;
+  border: thin solid #967C42;
+  box-shadow: 0 2px 2px 0 rgb(0, 0, 0, .16),
+    0 0 0 1px rgb(0, 0, 0, 0.08);
+  }
+
+  .card:first-of-type {
+  margin: 0;
+}
+
+.card img {
+  width: 160px;
+  height: auto;
+}
+
+span.james-bond {
+  background: #967C42;
+  /* border: 1px solid #333; */
+  clip-path: polygon(16% 15%, 100% 15%, 100% 100%, 0 100%, 0 15%, 12% 15%, 14% 0);
+  color: #fff;
+  font-size: 13px;
+  height: 130px;
+  width: 570px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 265px;
+  left: -1px;
+  display: none;
+  padding: 35px 10px 0 10px;
+  text-align: justify;
+}
+
+span.christoph-waltz {
+  background: #967C42;
+  /* border: 1px solid #333; */
+  clip-path: polygon(52% 15%, 100% 15%, 100% 100%, 0 100%, 0 15%, 48% 15%, 50% 0);
+  color: #fff;
+  font-size: 13px;
+  height: 130px;
+  width: 570px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 265px;
+  left: -205px;
+  display: none;
+  padding: 35px 10px 0 10px;
+  text-align: justify;
+}
+
+span.lea-seydoux {
+  background: #967C42;
+  /* border: 1px solid #333; */
+  clip-path: polygon(88% 15%, 100% 15%, 100% 100%, 0 100%, 0 15%, 84% 15%, 86% 0);
+  color: #fff;
+  font-size: 13px;
+  height: 130px;
+  width: 570px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 265px;
+  right: -1px;
+  display: none;
+  padding: 35px 10px 0 10px;
+  text-align: justify;
+}
+
+p.character {
+  font-size: 12px;
+  float: left;
+  position: relative;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+p.character:hover span {
+  display: block;
+}
+
+/* *********************************
+ARTICLE COL RIGHT
+********************************* */
+.article-col-right {
+  text-align: justify;
+  padding-left: 20px;
+}
+
+h3:nth-child(n+3) {
+  margin-top: 1rem;
+}
+
+/* *********** UL *********** */
+ul {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.25rem;
+}
+
+.article-col-right>ul li:before {
+  content: "•";
+  color: #967c42;
+  font-weight: 900;
+  display: inline-block;
+  width: 1.25em;
+  margin-left: -.1rem;
+}
+
+/* ******************************************************************
+ARROW ICON
+****************************************************************** */
+.icon {
+  margin-bottom: 50px;
+  margin-left: 325px;
+  text-align:left;
+}
+
+a>.bx {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.bx:hover {
+  color: #967C42;
+  cursor: pointer;
+  font-size: 2.5rem
+}
+
+
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+}

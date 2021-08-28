@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500;700&display=swap');
+
+* {
+ padding:0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+ font-family: 'Montserrat',
+ sans-serif;
+}
+
+/* ******************************************************************
+HEADER
+****************************************************************** */
+.top-header {
+ width:100%;
+ text-align: center;
+ margin-bottom: 15px;
+}
+
+.top-header h1 {
+ font-family: 'Kaisei Tokumin',
+ serif;
+ margin-top:-40px;
+}
+
+#logo > img {
+ margin: auto;
+ width: 250px;
+ height: 250px;
+ display:block;
+}
+
+
+#header {
+ width: 100%;
+ height: 40px;
+ background-color: #000;
+ margin-bottom: 50px;
+}
+
+#nav {
+ text-align: center;
+ padding-top: 10px;
+}
+
+#nav li {
+display:inline-block;
+list-style-type: none;
+border-left: 1px solid #fff;
+padding:0px 3rem;
+}
+
+#nav li:first-of-type {
+ border: none;
+ padding: 0 3rem;
+}
+
+#nav a {
+ text-decoration: none;
+ color: #fff;
+ font-weight: bold;
+ transition: all 0.2s ease-in-out;
+ -webkit-transition: all 0.2s ease-in-out;
+ -moz-transition: all 0.2s ease-in-out;
+ -ms-transition: all 0.2s ease-in-out;
+ -o-transition: all 0.2s ease-in-out;
+}
+
+#nav a:hover {
+ transition: all .3s ease-in;
+ -webkit-transition: all .3s ease-in;
+ -moz-transition: all .3s ease-in;
+ -ms-transition: all .3s ease-in;
+ -o-transition: all .3s ease-in;
+ color:#967C42;
+}
+
+
+
+
+/* ******************************************************************
+MAIN SECTION
+****************************************************************** */
+
+.main-container {
+ width: 70%;
+ /* text-align: center; */
+ margin: auto;
+}
+
+.blogs {
+ margin-bottom: 100px;
+ padding: 10px;
+}
+
+.blogs:hover {
+ background-color: rgba(150, 124, 66, 0.7);
+}
+
+.blogs img{
+ margin-bottom: 30px;
+ width: 100%;
+ height: auto;
+}
+
+.blogs h2,
+h4,
+p {
+ margin-bottom: 15px;
+}
+
+
+.blogs p {
+ width: 100%;
+ margin: auto;
+ font-weight: 400;
+ line-height: 1.5rem;
+ text-align:justify
+}
+
+.blogs h4 {
+float: left;
+background-color: #967C42;
+padding:7px 12px;
+line-height: 1.5rem;
+font-size: 1.2rem;
+font-weight: 300;
+}
+
+.blogs > h2 {
+ text-transform:uppercase ;
+}
+
+.blogs > a {
+ color: #fff;
+}
+
+.blogs > a:hover {
+ color: #333;
+ cursor: pointer;
+ transition: all 0.5s ease-in-out;
+ -webkit-transition: all 0.5s ease-in-out;
+ -moz-transition: all 0.5s ease-in-out;
+ -ms-transition: all 0.5s ease-in-out;
+ -o-transition: all 0.5s ease-in-out;
+}
+
+.icon {
+ float:right;
+ margin-bottom: 50px;
+}
+
+a > .bx {
+ font-size:2.5rem;
+ color: #333;
+}
+
+.bx:hover {
+color: #967C42;
+cursor: pointer;
+ font-size:2.5rem
+}
